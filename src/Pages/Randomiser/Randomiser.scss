@@ -1,0 +1,13 @@
+.joke-randomiser {
+  background-color: var(--green);
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  color: var(--white);
+  border-radius: 1.5px;
+  font-size: 1.2rem;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba($color: var(--green), $alpha: 0.81);
+  }
+}

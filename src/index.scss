@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lancelot&display=swap");
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --red: red;
+  --purple: #d9deff;
+  --green: #008000;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  font-family: "Lancelot", cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
