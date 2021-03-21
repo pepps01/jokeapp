@@ -73,7 +73,6 @@ export const Joke = () => {
               <span className="joke-footer-bold">Language:</span> {jokes?.lang}
               &nbsp;
               &nbsp;
-              &nbsp;
               <span className="joke-footer-bold">Type:</span> {jokes?.type}
             </div>
 
