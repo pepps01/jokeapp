@@ -37,7 +37,7 @@ export const Joke = () => {
     const sound = new Howl({
         src : [Laugh],
         autoplay: true,
-        volume: 0.1,
+        volume: 0.05,
         loop:false
     });
 
