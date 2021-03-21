@@ -6,6 +6,6 @@ export async function getCategories() {
 }
 
 export async function getJokesByCategory(category) {
-  const data = await fetch(`${apiUrl}/joke/${category}`);
+  const data = await fetch(`${apiUrl}/joke/${category}?blacklistFlags=nsfw,racist,sexist,explicit`);
   return await data.json();
 }
