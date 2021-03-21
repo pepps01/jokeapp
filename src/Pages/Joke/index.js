@@ -73,10 +73,10 @@ export const Joke = () => {
               <span className="joke-footer-bold">Language:</span> {jokes?.lang}
               &nbsp;
               &nbsp;
-              {/* <span className="joke-footer-bold">Type:</span> {jokes?.type} */}
+              <span className="joke-footer-bold">Type:</span> {jokes?.type}
             </div>
 
-              <div>{window.setTimeout(SoundPlay, 2000) }</div>
+              <div className="SoundDisplay">{window.setTimeout(SoundPlay, 2000) }</div>
 
                
           </div>
